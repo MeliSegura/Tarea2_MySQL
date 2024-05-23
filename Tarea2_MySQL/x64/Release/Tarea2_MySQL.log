@@ -1,0 +1,166 @@
+﻿  Estudiante.cpp
+C:\Users\Usuario\OneDrive\Documentos\Tarea2_MySQL\Tarea2_MySQL\tipo_sangre.h(102,25): error C2065: 'id': identificador no declarado
+  (compilando archivo de origen "Estudiante.cpp")
+  
+C:\Users\Usuario\OneDrive\Documentos\Tarea2_MySQL\Tarea2_MySQL\Estudiante.h(45,213): error C2676: '+' binario: 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' no define este operador o una conversión a un tipo aceptable para el operador predefinido
+  (compilando archivo de origen "Estudiante.cpp")
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xstring(5034,62):
+  puede ser 'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(std::basic_string<_Elem,_Traits,_Alloc> &&,const _Elem)'
+  	C:\Users\Usuario\OneDrive\Documentos\Tarea2_MySQL\Tarea2_MySQL\Estudiante.h(45,205):
+  	"std::basic_string<_Elem,_Traits,_Alloc> std::operator +(std::basic_string<_Elem,_Traits,_Alloc> &&,const _Elem)": el parámetro de plantilla "_Elem" es ambiguo
+  		C:\Users\Usuario\OneDrive\Documentos\Tarea2_MySQL\Tarea2_MySQL\Estudiante.h(45,205):
+  		puede ser 'int'
+  		C:\Users\Usuario\OneDrive\Documentos\Tarea2_MySQL\Tarea2_MySQL\Estudiante.h(45,205):
+  		o       'char'
+  	C:\Users\Usuario\OneDrive\Documentos\Tarea2_MySQL\Tarea2_MySQL\Estudiante.h(45,205):
+  	"std::basic_string<_Elem,_Traits,_Alloc> std::operator +(std::basic_string<_Elem,_Traits,_Alloc> &&,const _Elem)": no se pudo deducir el argumento plantilla para "const _Elem" de "int"
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xstring(5028,62):
+  o       'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(std::basic_string<_Elem,_Traits,_Alloc> &&,const _Elem *const )'
+  	C:\Users\Usuario\OneDrive\Documentos\Tarea2_MySQL\Tarea2_MySQL\Estudiante.h(45,205):
+  	"std::basic_string<_Elem,_Traits,_Alloc> std::operator +(std::basic_string<_Elem,_Traits,_Alloc> &&,const _Elem *const )": no se pudo deducir el argumento plantilla para "const _Elem *const " de "int"
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xstring(5022,62):
+  o       'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const _Elem,std::basic_string<_Elem,_Traits,_Alloc> &&)'
+  	C:\Users\Usuario\OneDrive\Documentos\Tarea2_MySQL\Tarea2_MySQL\Estudiante.h(45,205):
+  	"std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const _Elem,std::basic_string<_Elem,_Traits,_Alloc> &&)": no se pudo deducir el argumento plantilla para "std::basic_string<_Elem,_Traits,_Alloc> &&" de "int"
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xstring(5016,62):
+  o       'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const _Elem *const ,std::basic_string<_Elem,_Traits,_Alloc> &&)'
+  	C:\Users\Usuario\OneDrive\Documentos\Tarea2_MySQL\Tarea2_MySQL\Estudiante.h(45,205):
+  	"std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const _Elem *const ,std::basic_string<_Elem,_Traits,_Alloc> &&)": no se pudo deducir el argumento plantilla para "const _Elem *const " de "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xstring(5003,62):
+  o       'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(std::basic_string<_Elem,_Traits,_Alloc> &&,std::basic_string<_Elem,_Traits,_Alloc> &&)'
+  	C:\Users\Usuario\OneDrive\Documentos\Tarea2_MySQL\Tarea2_MySQL\Estudiante.h(45,205):
+  	"std::basic_string<_Elem,_Traits,_Alloc> std::operator +(std::basic_string<_Elem,_Traits,_Alloc> &&,std::basic_string<_Elem,_Traits,_Alloc> &&)": no se pudo deducir el argumento plantilla para "std::basic_string<_Elem,_Traits,_Alloc> &&" de "int"
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xstring(4997,62):
+  o       'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(std::basic_string<_Elem,_Traits,_Alloc> &&,const std::basic_string<_Elem,_Traits,_Alloc> &)'
+  	C:\Users\Usuario\OneDrive\Documentos\Tarea2_MySQL\Tarea2_MySQL\Estudiante.h(45,205):
+  	"std::basic_string<_Elem,_Traits,_Alloc> std::operator +(std::basic_string<_Elem,_Traits,_Alloc> &&,const std::basic_string<_Elem,_Traits,_Alloc> &)": no se pudo deducir el argumento plantilla para "const std::basic_string<_Elem,_Traits,_Alloc> &" de "int"
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xstring(4991,62):
+  o       'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const std::basic_string<_Elem,_Traits,_Alloc> &,std::basic_string<_Elem,_Traits,_Alloc> &&)'
+  	C:\Users\Usuario\OneDrive\Documentos\Tarea2_MySQL\Tarea2_MySQL\Estudiante.h(45,205):
+  	"std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const std::basic_string<_Elem,_Traits,_Alloc> &,std::basic_string<_Elem,_Traits,_Alloc> &&)": no se pudo deducir el argumento plantilla para "std::basic_string<_Elem,_Traits,_Alloc> &&" de "int"
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xstring(4980,62):
+  o       'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem)'
+  	C:\Users\Usuario\OneDrive\Documentos\Tarea2_MySQL\Tarea2_MySQL\Estudiante.h(45,205):
+  	"std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem)": el parámetro de plantilla "_Elem" es ambiguo
+  		C:\Users\Usuario\OneDrive\Documentos\Tarea2_MySQL\Tarea2_MySQL\Estudiante.h(45,205):
+  		puede ser 'int'
+  		C:\Users\Usuario\OneDrive\Documentos\Tarea2_MySQL\Tarea2_MySQL\Estudiante.h(45,205):
+  		o       'char'
+  	C:\Users\Usuario\OneDrive\Documentos\Tarea2_MySQL\Tarea2_MySQL\Estudiante.h(45,205):
+  	"std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem)": no se pudo deducir el argumento plantilla para "const _Elem" de "int"
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xstring(4967,62):
+  o       'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem *const )'
+  	C:\Users\Usuario\OneDrive\Documentos\Tarea2_MySQL\Tarea2_MySQL\Estudiante.h(45,205):
+  	"std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem *const )": no se pudo deducir el argumento plantilla para "const _Elem *const " de "int"
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xstring(4956,62):
+  o       'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const _Elem,const std::basic_string<_Elem,_Traits,_Alloc> &)'
+  	C:\Users\Usuario\OneDrive\Documentos\Tarea2_MySQL\Tarea2_MySQL\Estudiante.h(45,205):
+  	"std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const _Elem,const std::basic_string<_Elem,_Traits,_Alloc> &)": no se pudo deducir el argumento plantilla para "const std::basic_string<_Elem,_Traits,_Alloc> &" de "int"
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xstring(4943,62):
+  o       'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const _Elem *const ,const std::basic_string<_Elem,_Traits,_Alloc> &)'
+  	C:\Users\Usuario\OneDrive\Documentos\Tarea2_MySQL\Tarea2_MySQL\Estudiante.h(45,205):
+  	"std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const _Elem *const ,const std::basic_string<_Elem,_Traits,_Alloc> &)": no se pudo deducir el argumento plantilla para "const _Elem *const " de "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xstring(4931,62):
+  o       'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const std::basic_string<_Elem,_Traits,_Alloc> &,const std::basic_string<_Elem,_Traits,_Alloc> &)'
+  	C:\Users\Usuario\OneDrive\Documentos\Tarea2_MySQL\Tarea2_MySQL\Estudiante.h(45,205):
+  	"std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const std::basic_string<_Elem,_Traits,_Alloc> &,const std::basic_string<_Elem,_Traits,_Alloc> &)": no se pudo deducir el argumento plantilla para "const std::basic_string<_Elem,_Traits,_Alloc> &" de "int"
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(4311,5):
+  o       'std::move_iterator<_Iter> std::operator +(move_iterator<_Iter>::difference_type,const std::move_iterator<_Iter> &) noexcept(<expr>)'
+  	C:\Users\Usuario\OneDrive\Documentos\Tarea2_MySQL\Tarea2_MySQL\Estudiante.h(45,205):
+  	"std::move_iterator<_Iter> std::operator +(move_iterator<_Iter>::difference_type,const std::move_iterator<_Iter> &) noexcept(<expr>)": no se pudo deducir el argumento plantilla para "const std::move_iterator<_Iter> &" de "int"
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(1792,50):
+  o       'std::reverse_iterator<_BidIt> std::operator +(reverse_iterator<_BidIt>::difference_type,const std::reverse_iterator<_BidIt> &) noexcept(<expr>)'
+  	C:\Users\Usuario\OneDrive\Documentos\Tarea2_MySQL\Tarea2_MySQL\Estudiante.h(45,205):
+  	"std::reverse_iterator<_BidIt> std::operator +(reverse_iterator<_BidIt>::difference_type,const std::reverse_iterator<_BidIt> &) noexcept(<expr>)": no se pudo deducir el argumento plantilla para "const std::reverse_iterator<_BidIt> &" de "int"
+  
+C:\Users\Usuario\OneDrive\Documentos\Tarea2_MySQL\Tarea2_MySQL\Estudiante.h(122,55): error C2065: 'ii': identificador no declarado
+  (compilando archivo de origen "Estudiante.cpp")
+  
+  Tarea2_MySQL.cpp
+C:\Users\Usuario\OneDrive\Documentos\Tarea2_MySQL\Tarea2_MySQL\tipo_sangre.h(102,25): error C2065: 'id': identificador no declarado
+  (compilando archivo de origen "Tarea2_MySQL.cpp")
+  
+C:\Users\Usuario\OneDrive\Documentos\Tarea2_MySQL\Tarea2_MySQL\Estudiante.h(45,213): error C2676: '+' binario: 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' no define este operador o una conversión a un tipo aceptable para el operador predefinido
+  (compilando archivo de origen "Tarea2_MySQL.cpp")
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xstring(5034,62):
+  puede ser 'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(std::basic_string<_Elem,_Traits,_Alloc> &&,const _Elem)'
+  	C:\Users\Usuario\OneDrive\Documentos\Tarea2_MySQL\Tarea2_MySQL\Estudiante.h(45,205):
+  	"std::basic_string<_Elem,_Traits,_Alloc> std::operator +(std::basic_string<_Elem,_Traits,_Alloc> &&,const _Elem)": el parámetro de plantilla "_Elem" es ambiguo
+  		C:\Users\Usuario\OneDrive\Documentos\Tarea2_MySQL\Tarea2_MySQL\Estudiante.h(45,205):
+  		puede ser 'int'
+  		C:\Users\Usuario\OneDrive\Documentos\Tarea2_MySQL\Tarea2_MySQL\Estudiante.h(45,205):
+  		o       'char'
+  	C:\Users\Usuario\OneDrive\Documentos\Tarea2_MySQL\Tarea2_MySQL\Estudiante.h(45,205):
+  	"std::basic_string<_Elem,_Traits,_Alloc> std::operator +(std::basic_string<_Elem,_Traits,_Alloc> &&,const _Elem)": no se pudo deducir el argumento plantilla para "const _Elem" de "int"
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xstring(5028,62):
+  o       'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(std::basic_string<_Elem,_Traits,_Alloc> &&,const _Elem *const )'
+  	C:\Users\Usuario\OneDrive\Documentos\Tarea2_MySQL\Tarea2_MySQL\Estudiante.h(45,205):
+  	"std::basic_string<_Elem,_Traits,_Alloc> std::operator +(std::basic_string<_Elem,_Traits,_Alloc> &&,const _Elem *const )": no se pudo deducir el argumento plantilla para "const _Elem *const " de "int"
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xstring(5022,62):
+  o       'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const _Elem,std::basic_string<_Elem,_Traits,_Alloc> &&)'
+  	C:\Users\Usuario\OneDrive\Documentos\Tarea2_MySQL\Tarea2_MySQL\Estudiante.h(45,205):
+  	"std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const _Elem,std::basic_string<_Elem,_Traits,_Alloc> &&)": no se pudo deducir el argumento plantilla para "std::basic_string<_Elem,_Traits,_Alloc> &&" de "int"
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xstring(5016,62):
+  o       'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const _Elem *const ,std::basic_string<_Elem,_Traits,_Alloc> &&)'
+  	C:\Users\Usuario\OneDrive\Documentos\Tarea2_MySQL\Tarea2_MySQL\Estudiante.h(45,205):
+  	"std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const _Elem *const ,std::basic_string<_Elem,_Traits,_Alloc> &&)": no se pudo deducir el argumento plantilla para "const _Elem *const " de "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xstring(5003,62):
+  o       'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(std::basic_string<_Elem,_Traits,_Alloc> &&,std::basic_string<_Elem,_Traits,_Alloc> &&)'
+  	C:\Users\Usuario\OneDrive\Documentos\Tarea2_MySQL\Tarea2_MySQL\Estudiante.h(45,205):
+  	"std::basic_string<_Elem,_Traits,_Alloc> std::operator +(std::basic_string<_Elem,_Traits,_Alloc> &&,std::basic_string<_Elem,_Traits,_Alloc> &&)": no se pudo deducir el argumento plantilla para "std::basic_string<_Elem,_Traits,_Alloc> &&" de "int"
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xstring(4997,62):
+  o       'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(std::basic_string<_Elem,_Traits,_Alloc> &&,const std::basic_string<_Elem,_Traits,_Alloc> &)'
+  	C:\Users\Usuario\OneDrive\Documentos\Tarea2_MySQL\Tarea2_MySQL\Estudiante.h(45,205):
+  	"std::basic_string<_Elem,_Traits,_Alloc> std::operator +(std::basic_string<_Elem,_Traits,_Alloc> &&,const std::basic_string<_Elem,_Traits,_Alloc> &)": no se pudo deducir el argumento plantilla para "const std::basic_string<_Elem,_Traits,_Alloc> &" de "int"
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xstring(4991,62):
+  o       'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const std::basic_string<_Elem,_Traits,_Alloc> &,std::basic_string<_Elem,_Traits,_Alloc> &&)'
+  	C:\Users\Usuario\OneDrive\Documentos\Tarea2_MySQL\Tarea2_MySQL\Estudiante.h(45,205):
+  	"std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const std::basic_string<_Elem,_Traits,_Alloc> &,std::basic_string<_Elem,_Traits,_Alloc> &&)": no se pudo deducir el argumento plantilla para "std::basic_string<_Elem,_Traits,_Alloc> &&" de "int"
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xstring(4980,62):
+  o       'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem)'
+  	C:\Users\Usuario\OneDrive\Documentos\Tarea2_MySQL\Tarea2_MySQL\Estudiante.h(45,205):
+  	"std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem)": el parámetro de plantilla "_Elem" es ambiguo
+  		C:\Users\Usuario\OneDrive\Documentos\Tarea2_MySQL\Tarea2_MySQL\Estudiante.h(45,205):
+  		puede ser 'int'
+  		C:\Users\Usuario\OneDrive\Documentos\Tarea2_MySQL\Tarea2_MySQL\Estudiante.h(45,205):
+  		o       'char'
+  	C:\Users\Usuario\OneDrive\Documentos\Tarea2_MySQL\Tarea2_MySQL\Estudiante.h(45,205):
+  	"std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem)": no se pudo deducir el argumento plantilla para "const _Elem" de "int"
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xstring(4967,62):
+  o       'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem *const )'
+  	C:\Users\Usuario\OneDrive\Documentos\Tarea2_MySQL\Tarea2_MySQL\Estudiante.h(45,205):
+  	"std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem *const )": no se pudo deducir el argumento plantilla para "const _Elem *const " de "int"
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xstring(4956,62):
+  o       'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const _Elem,const std::basic_string<_Elem,_Traits,_Alloc> &)'
+  	C:\Users\Usuario\OneDrive\Documentos\Tarea2_MySQL\Tarea2_MySQL\Estudiante.h(45,205):
+  	"std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const _Elem,const std::basic_string<_Elem,_Traits,_Alloc> &)": no se pudo deducir el argumento plantilla para "const std::basic_string<_Elem,_Traits,_Alloc> &" de "int"
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xstring(4943,62):
+  o       'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const _Elem *const ,const std::basic_string<_Elem,_Traits,_Alloc> &)'
+  	C:\Users\Usuario\OneDrive\Documentos\Tarea2_MySQL\Tarea2_MySQL\Estudiante.h(45,205):
+  	"std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const _Elem *const ,const std::basic_string<_Elem,_Traits,_Alloc> &)": no se pudo deducir el argumento plantilla para "const _Elem *const " de "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xstring(4931,62):
+  o       'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const std::basic_string<_Elem,_Traits,_Alloc> &,const std::basic_string<_Elem,_Traits,_Alloc> &)'
+  	C:\Users\Usuario\OneDrive\Documentos\Tarea2_MySQL\Tarea2_MySQL\Estudiante.h(45,205):
+  	"std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const std::basic_string<_Elem,_Traits,_Alloc> &,const std::basic_string<_Elem,_Traits,_Alloc> &)": no se pudo deducir el argumento plantilla para "const std::basic_string<_Elem,_Traits,_Alloc> &" de "int"
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(4311,5):
+  o       'std::move_iterator<_Iter> std::operator +(move_iterator<_Iter>::difference_type,const std::move_iterator<_Iter> &) noexcept(<expr>)'
+  	C:\Users\Usuario\OneDrive\Documentos\Tarea2_MySQL\Tarea2_MySQL\Estudiante.h(45,205):
+  	"std::move_iterator<_Iter> std::operator +(move_iterator<_Iter>::difference_type,const std::move_iterator<_Iter> &) noexcept(<expr>)": no se pudo deducir el argumento plantilla para "const std::move_iterator<_Iter> &" de "int"
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(1792,50):
+  o       'std::reverse_iterator<_BidIt> std::operator +(reverse_iterator<_BidIt>::difference_type,const std::reverse_iterator<_BidIt> &) noexcept(<expr>)'
+  	C:\Users\Usuario\OneDrive\Documentos\Tarea2_MySQL\Tarea2_MySQL\Estudiante.h(45,205):
+  	"std::reverse_iterator<_BidIt> std::operator +(reverse_iterator<_BidIt>::difference_type,const std::reverse_iterator<_BidIt> &) noexcept(<expr>)": no se pudo deducir el argumento plantilla para "const std::reverse_iterator<_BidIt> &" de "int"
+  
+C:\Users\Usuario\OneDrive\Documentos\Tarea2_MySQL\Tarea2_MySQL\Estudiante.h(122,55): error C2065: 'ii': identificador no declarado
+  (compilando archivo de origen "Tarea2_MySQL.cpp")
+  
+C:\Users\Usuario\OneDrive\Documentos\Tarea2_MySQL\Tarea2_MySQL\Tarea2_MySQL.cpp(24,27): error C2440: '<function-style-cast>': no se puede realizar la conversión de 'initializer list' a 'Estudiante'
+  C:\Users\Usuario\OneDrive\Documentos\Tarea2_MySQL\Tarea2_MySQL\Tarea2_MySQL.cpp(24,27):
+  'Estudiante::Estudiante': la función no acepta 5 argumentos
+  	C:\Users\Usuario\OneDrive\Documentos\Tarea2_MySQL\Tarea2_MySQL\Tarea2_MySQL.cpp(24,27):
+  	al hacer coincidir la lista de argumentos '(std::string, std::string, std::string, std::string, std::string)'
+  
+  tipo_sangre.cpp
+C:\Users\Usuario\OneDrive\Documentos\Tarea2_MySQL\Tarea2_MySQL\tipo_sangre.h(102,25): error C2065: 'id': identificador no declarado
+  (compilando archivo de origen "tipo_sangre.cpp")
+  
